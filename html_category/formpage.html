@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+    <style>
+        .formDiv {
+            width: 350px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formDiv">
+        <form>
+            <table>
+                <tr>
+                    <td>First Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name: </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email Address: </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>
+                        <input id="maleRadio" type="radio" name="genderRadio" value="Male">
+                        <label for="maleRadio">Male</label>
+                        <input id="femaleRadio" type="radio" name="genderRadio" value="Female">
+                        <label for="femaleRadio">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth: </td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Hobbies</td>
+                </tr>
+                <tr>
+                    <td>Reading Books: </td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Doing Sports: </td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Swimming: </td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Playing Instruments: </td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Playing Basketball: </td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Drawing/Painting: </td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea cols="40" rows="10" placeholder="Your Message"></textarea></td>
+                </tr>
+                <tr>
+                    <td>I have read and I agree. <input type="radio" name="agreementRadio"></td>
+                </tr>
+                <tr>
+                    <td>I have read and I do not agree. <input type="radio" name="agreementRadio"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                    <td><input type="reset" value="Clear"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
