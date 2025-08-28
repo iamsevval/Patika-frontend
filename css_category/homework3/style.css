@@ -25,7 +25,7 @@ body {
 
 .header a {
   margin-left: 10px;
-  /* tüm bloğu biraz sağa kaydır */
+  /* Tüm bloğu biraz sağa kaydırdık */
   color: #202124;
   text-decoration: none;
 }
@@ -164,7 +164,7 @@ body {
   margin-left: 20px;
   /* Soldaki linklerin arasındaki boşluğu kaldırdık */
   margin-right: 10px;
-  /* İstersen linkler arası boşluk bıraktık */
+  /* Linkler arası boşluk bıraktık */
   color: #70757a;
   text-decoration: none;
 }
@@ -179,7 +179,6 @@ body {
 
 .header-right button {
   background-color: #1a73e8;
-  /* Google mavi */
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -194,5 +193,4 @@ body {
 
 .header-right button:hover {
   background-color: #1765cc;
-  /* biraz koyu mavi */
 }
