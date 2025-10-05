@@ -1,5 +1,5 @@
-<img src="Assets/Linkedln_site.png" alt="LinkedIn Site" width="200"/>
-<img src="Assets/Instagram_site.png" alt="Instagram Site" width="200"/>
+![linkedin_site](Assets/Linkedln_site.png)
+![Instagram_site](Assets/Instagram_site.png)
 
 ## 🎬 Project Videos
 
