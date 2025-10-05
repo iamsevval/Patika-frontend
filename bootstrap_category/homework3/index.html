@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbarbg fixed-top">
+        <a class="navbar-brand ml-3" href="#">
+            <i class="fab fa-linkedin fa-2x" style="color: #0a66c2"></i>
+        </a>
+
+        <form class="form-inline mr-3">
+            <input class="form-control searche" type="search" placeholder="Arama yapınız..." />
+        </form>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-4">
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-center" href="#">
+                        <i class="fas fa-home fa-lg"></i><br />Ana Sayfa
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-center" href="#">
+                        <i class="fas fa-user-friends fa-lg"></i><br />Ağım
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-center" href="#">
+                        <i class="fas fa-briefcase fa-lg"></i><br />İş İlanları
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-center" href="#">
+                        <i class="fas fa-comment-dots fa-lg"></i><br />Mesajlaşma
+                    </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-center position-relative" href="#">
+                        <i class="fas fa-bell fa-lg"></i><br />Bildirimler
+                        <span class="badge badge-danger position-absolute notification">3</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown text-center ml-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown">
+                        <img src="images/profile-small.jpg" class="profile-photo" alt="Profil Fotoğrafı" />
+                        <br />Ben
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sol Panel -->
+            <div class="col-2">
+                <div class="card text-center">
+                    <img src="images/profile-large.jpg" class="card-img-top profile-photo-lg mx-auto mt-3"
+                        alt="Profil Fotoğrafı" />
+                    <div class="card-body">
+                        <h6 class="card-title mb-0">Cengiz Cemal Mataracı</h6>
+                        <small class="text-muted">Software Developer</small>
+                    </div>
+                </div>
+            </div>
+            <!-- Orta Panel -->
+            <div class="col-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <input type="text" class="form-control mb-2" placeholder="Ne düşünüyorsunuz?" />
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-light text-primary">
+                                <i class="fas fa-image"></i> Fotoğraf
+                            </button>
+                            <button class="btn btn-light text-success">
+                                <i class="fas fa-video"></i> Video
+                            </button>
+                            <button class="btn btn-light text-warning">
+                                <i class="fas fa-calendar-alt"></i> Etkinlik
+                            </button>
+                            <button class="btn btn-light text-danger">
+                                <i class="fas fa-edit"></i> Yazı Yaz
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Post -->
+                <div class="card post mb-3">
+                    <div class="card-header d-flex align-items-center">
+                        <img src="images/profile-small.jpg" class="postphoto" alt="Kullanıcı Fotoğrafı" />
+                        <div class="ml-2">
+                            <h6 class="mb-0">David J. Malan</h6>
+                            <small class="text-muted d-block">CS50 Instructor</small>
+                            <small class="text-muted"><i class="fas fa-globe"></i> 25a</small>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p>They have done great things! Tebrikler Kodluyoruz!</p>
+                        <img src="images/post.jpg" class="img-fluid rounded" alt="Post Görseli" />
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="btn btn-light">
+                            <i class="far fa-thumbs-up mr-2"></i>Beğen
+                        </button>
+                        <button class="btn btn-light">
+                            <i class="far fa-comment mr-2"></i>Yorum Yap
+                        </button>
+                        <button class="btn btn-light">
+                            <i class="fas fa-share mr-2"></i>Paylaş
+                        </button>
+                        <button class="btn btn-light">
+                            <i class="fas fa-paper-plane mr-2"></i>Gönder
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Sag Panel -->
+            <div class="col-3">
+                <div class="card sticky-card">
+                    <div class="card-header font-weight-bold">
+                        Bugünün En Çok İzlenen Eğitimleri
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="images/logo1.jpg" class="mr-2" alt="Logo 1" style="width: 50px; height: 50px;" />
+                            <span>CodeCraft Academy</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="images/logo2.jpg" class="mr-2" alt="Logo 2" style="width: 50px; height: 50px;" />
+                            <span>Veri Bilimi 101</span>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center sticky-footer">
+                        <a href="#" class="mr-3">Hakkında</a>
+                        <a href="#">Yardım</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-messages fixed-bottom p-2 border bg-white" style="width: 300px;">
+        <span><i class="fas fa-envelope"></i> Mesajlaşma</span>
+    </div>
+</body>
+
+</html>
